@@ -32,6 +32,7 @@
   </div>
 
    <h1> Thank You </h1>
+   <h3> From Jay </h3>
    <br>
    <h1> Happy Learning. See You Again. </h1>
    
