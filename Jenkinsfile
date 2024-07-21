@@ -23,6 +23,13 @@ pipeline {
 			}
 			
 		}
+
+		stage("Cleanup Docker"){
+			steps{
+				sh "docker system prune --all --force && docker volume prune --all --force"
+			}
+			
+		}
 		
 		stage("Checkout from SCM"){
 		      steps{
